@@ -12,6 +12,11 @@ function routes(router) {
     pretty: true
   })));
 
+  router.post('/graphql/users', mount(graphqlHTTP({
+    schema: userSchema,
+    pretty: true
+  })));
+
   router.post('/authenticate', userController.authenticate);
   router.get('/users', userController.index);
   router.get('/users/:id', userController.show);
