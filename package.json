@@ -1,0 +1,36 @@
+{
+  "name": "api-koa-crud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "private": false,
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon server.js",
+    "start": "pm2 start"
+  },
+  "author": "GabrielLinss <glins731@gmail.com>",
+  "dependencies": {
+    "@koa/cors": "2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-graphql": "^0.8.0",
+    "koa-mount": "^4.0.0",
+    "koa-respond": "^1.0.1",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.6",
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {
+    "jest": "^22.3.0",
+    "nodemon": "^1.15.0",
+    "supertest": "^3.0.0"
+  }
+}
