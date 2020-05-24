@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon server.js",
-    "start": "pm2 start"
+    "start": "pm2 start server.js --name koa-graphql"
   },
   "author": "GabrielLinss <glins731@gmail.com>",
   "dependencies": {
