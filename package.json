@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest",
     "dev": "nodemon server.js",
-    "start": "pm2 start server.js --name koa-graphql"
+    "start": "node server.js"
   },
   "author": "GabrielLinss <glins731@gmail.com>",
   "dependencies": {
@@ -25,8 +25,7 @@
     "koa-mount": "^4.0.0",
     "koa-respond": "^1.0.1",
     "koa-router": "^7.4.0",
-    "mongoose": "^5.0.6",
-    "pm2": "^4.4.0"
+    "mongoose": "^5.0.6"
   },
   "devDependencies": {
     "jest": "^22.3.0",
