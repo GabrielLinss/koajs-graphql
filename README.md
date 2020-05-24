@@ -1,4 +1,6 @@
-How to execute
+Base URL: https://koajs-graphql.herokuapp.com/
+
+# How to execute
 
 ## Clone project to your machine
 
