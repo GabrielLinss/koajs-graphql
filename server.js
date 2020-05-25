@@ -22,6 +22,10 @@ app.use(cors());
 
 routes(router);
 
+router.get('/', (ctx, next) => {
+  return ctx.body = { status: 'API is online' };
+});
+
 app.use(router.routes())
    .use(router.allowedMethods());
 
